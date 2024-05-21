@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(redbg.jpg);
+}
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+button{
+    padding: 0.3vh;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 8vh;
+    background-color: #FF6500;
+}
+button.btn:hover{
+    background-color: #FFC100;
+    font-size: 1.1rem;
+    transition: 0.3s ease-in-out;
+}
+
+button.btn:not(:hover){
+    transition: 0.3s ease-in-out;
+   }
+button.btn:active{
+    background-color: #FF6500;
+    transition: none;
+}
+header{
+    background: rgb(196,12,12);
+    background: linear-gradient(90deg, rgba(196,12,12,1) 0%, rgba(255,101,0,1) 58%, rgba(255,138,8,1) 86%);
+    padding: 1vh;
+    color: #fff;
+}
+main{
+    margin-top: 30vh;
+    margin-left: 30vh; 
+   
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5vh;
+    margin-top: 0.5vh;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    font-weight: bold;
+}
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 50px;
+    padding: 1.5vh;
+    width: 20vh;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #FFC100; /* Change the color and thickness as needed */
+    box-shadow: 0 0 5px rgba(255, 193, 0, 0.5); /* Add a subtle box shadow for more depth */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Add transitions for smoother animation */
+}
+
